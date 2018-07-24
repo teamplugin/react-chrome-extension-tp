@@ -1,0 +1,68 @@
+.content {
+	display: block;
+	width: 340px;
+	margin: 0 auto;
+}
+
+.activity{
+  text-align: center;
+}
+.logoText{
+  text-align: center;
+  color: '#010101';
+}
+.purchaseLink {
+	font-size : 13px;
+	font-family: raleway;
+	color: #00D7DA;
+	text-align : center;
+  font-weight: 900;
+  text-decoration: none;
+}
+.switchText{
+  text-align: center;
+  font-size: 22px;
+  font-family: 'raleway';
+}
+
+.totalText{
+  text-align: center;
+  font-size: 15px;
+  margin: '-12px 0px 33px 0px';
+  font-family: 'raleway';
+}
+
+.footerText{
+text-align: center; 
+font-size: 15px; 
+font-family: raleway;
+}
+
+.logo{
+  margin:10px auto;
+  display:block;
+
+}
+/*orginal
+
+
+/*
+  Hack to remove background from Mobile Safari.
+  Can't use it globally since it destroys checkboxes in Firefox
+*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .toggleAll,
+  .todoList li .toggle {
+    background: none;
+  }
+
+  .todoList li .toggle {
+    height: 40px;
+  }
+
+  .toggleAll {
+    transform: rotate(90deg);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+}

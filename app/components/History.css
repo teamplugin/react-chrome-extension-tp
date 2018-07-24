@@ -1,0 +1,36 @@
+
+.content {
+	display: block;
+	width: 340px;
+	margin: 0 auto;
+}
+
+.activityhistory {
+	color: #212121;
+	font-family: raleway;
+	font-size: 22px;
+}
+
+
+.gotaquestion1 {
+	text-align: left; 
+	font-size:14px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: -15px 0px 0px 0px;
+}
+
+.hashtag {
+	color: #212121;
+	font-family: raleway;
+	font-size: 17px;
+	font-weight:700;
+}
+
+
+.fewsecs {
+	color: #bcbcbc;
+	font-family: raleway;
+	font-size: 15px;
+	font-weight:500;
+}

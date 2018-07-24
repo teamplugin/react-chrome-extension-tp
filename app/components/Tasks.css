@@ -1,0 +1,78 @@
+.content {
+	display: block;
+	width: 340px;
+	margin: 0 auto;
+}
+
+
+.line{
+    color: #e1e1e1;
+}
+
+.likesTitle{
+    font-size:13px;
+    color: #212121;
+    font-family: 'raleway';
+}
+
+.freePlanDescription{
+    text-align: center; 
+    font-size:15px;
+    font-family: 'raleway';
+}
+
+.likesCount{
+    font-size:13px;
+    color: #212121;
+    font-family: 'raleway';
+    float: right;
+}
+
+.hashTag{
+    font-size: 44px;
+}
+
+.td2 {
+    text-align: center; 
+    border: 1px solid #dddddd;
+    padding: 22px;
+}
+
+.tr2{
+    cursor: pointer;
+}
+
+
+.td3 {
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding: 11px;
+    text-align: left; 
+}
+
+
+.td3:hover{
+    border: 2px solid #00D7DA;
+}
+
+.tdAddTask {
+    text-align: center; 
+    border: 1px solid #dddddd;
+    padding: 22px;
+}
+
+.addTask {
+	text-decoration: none;
+	color: #212121;
+}
+
+.addtask:hover {
+	color: #00D7DA;
+}
+
+.table2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}

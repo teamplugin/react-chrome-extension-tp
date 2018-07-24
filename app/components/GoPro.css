@@ -1,0 +1,111 @@
+.content {
+	display: block;
+	width: 340px;
+	margin: 0 auto;
+}
+
+.logo{
+    margin:10px auto;
+    display:block;
+  
+  }
+  
+.alltasks {
+text-align: center; font-size:22px; font-family: raleway;
+}
+
+.alltasks1 {
+text-align: center; font-size:22px; font-family: raleway; margin: -18px 0px 0px 0px;
+}
+
+.speedup {
+background-color: #f3f3f3;
+padding: 11px 0px 15px 0px;
+margin-top: 21px;
+border-style: ridge;
+}
+
+.centerpara {
+text-align: center; font-size:15px; font-family: raleway;
+}
+
+.centerpara1 {
+text-align: center; font-size:15px; font-family: raleway; margin-bottom: -11px;
+}
+
+.centerpara2 {
+text-align: center; font-size:15px; font-family: raleway; margin-top: -5px;
+}
+
+.totallikes {
+text-align: center; font-size:15px; margin: -12px 0px 33px 0px; font-family: raleway;
+}
+
+
+
+
+.table2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td2 {
+    border: 1px solid #dddddd;
+    
+    padding: 22px;
+}
+
+.td3 {
+    border: 1px solid #dddddd;
+    
+    padding: 11px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.gotaquestion {
+	text-align: left; 
+	font-size:13px; 
+	font-family: raleway; 
+	font-weight: 500;
+}
+
+.gotaquestion21 {
+	text-align: left; 
+	font-size:14px; 
+	font-family: raleway; 
+	font-weight: 500;
+	line-height: 125%;
+}
+
+.gotaquestion11 {
+	text-align: left; 
+	font-size:13px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: 0px 0px -5px 0px;
+}
+
+.gotaquestion111 {
+	text-align: left; 
+	font-size:13px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: 21px 0px -5px 0px;
+}
+
+.gotaquestion1 {
+	text-align: left; 
+	font-size:14px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: -15px 0px 0px 0px;
+}

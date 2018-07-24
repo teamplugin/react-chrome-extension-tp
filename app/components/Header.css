@@ -1,0 +1,41 @@
+.content {
+	display: block;
+	width: 340px;
+	margin: 0 auto;
+}
+
+
+.config {
+	font-size:15px;
+	color: #00D7DA;
+	font-family: 'raleway';
+}
+
+.goback {
+	font-size:13px;
+	color: #00D7DA;
+	font-family: 'raleway';
+}
+
+.gear{
+	width:15px;
+	height:15px;
+	margin-left:5px;
+	position: relative;
+	/* Adjust these values accordingly */
+	top: 2px;
+}
+
+a.config {
+	text-decoration: none;
+	color: #00D7DA;
+	border: 0px;
+	outline: 0;
+}
+
+a.config:hover {
+	text-decoration: none;
+	color: #00D7DA;
+	border: 0px;
+	outline: 0;
+}

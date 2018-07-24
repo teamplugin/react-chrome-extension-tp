@@ -1,0 +1,304 @@
+#content {
+	display: block;
+	width: 340px;
+	margin: 0 auto;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+#myBar {
+  width: 22%;
+  height: 15px;
+  background-color: #00D7DA;
+  margin: -11px 0px 20px 0px;
+}
+
+a.addtask {
+	text-decoration: none;
+	color: #212121;
+}
+
+a.addtask:hover {
+	text-decoration: none;
+	color: #00D7DA;
+}
+
+.table2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td2 {
+    border: 1px solid #dddddd;
+    
+    padding: 22px;
+}
+
+.td3 {
+    border: 1px solid #dddddd;
+    
+    padding: 11px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #00D7DA;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #00D7DA;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.faqtroubleshooting {
+	text-align: left; 
+	font-size:18px; 
+	font-family: raleway; 
+	font-weight: 500;
+}
+
+.gotaquestion {
+	text-align: left; 
+	font-size:14px; 
+	font-family: raleway; 
+	font-weight: 500;
+}
+
+.gotaquestion11 {
+	text-align: left; 
+	font-size:13px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: 0px 0px -5px 0px;
+}
+
+.gotaquestion111 {
+	text-align: left; 
+	font-size:13px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: 21px 0px -5px 0px;
+}
+
+.goback {
+	font-size:13px;
+	color: #00D7DA;
+	font-family: raleway;
+}
+
+.goback1 {
+	font-size:15px;
+	color: #00D7DA;
+	font-family: raleway;
+	padding: 10px 0px 0px 0px;
+}
+
+.openfaq {
+	font-size : 13px;
+	font-family: raleway;
+	color: #00D7DA;
+	text-align : left;
+	font-weight: 900;
+}
+
+a.openfaqlink {
+	text-decoration: none;
+}
+
+.iconheart {
+	color: red;
+}
+
+.gotaquestion1 {
+	text-align: left; 
+	font-size:14px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: -15px 0px 0px 0px;
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #00D7DA;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+        .container {
+            width: 340px;
+            
+        }
+
+        .container input[type=text] {
+            width: 340px;
+            height: 3rem; 
+            font-size: 15px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #00D7DA;
+            border-radius: 0;
+            outline: none;
+            box-shadow: none;
+            box-sizing: content-box;
+            transition: all 0.3s;
+            font-weight: inherit;
+            margin: 0px 0px 0px -15px;
+        }
+
+        .container input[type=text]:focus:not([readonly]) {
+            border-bottom: 4px solid #00D7DA;
+        }
+        
+        
+        
+.containercbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 21px;
+    margin-bottom: 12px;
+    font-family: raleway;
+    font-weight:500;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.containercbox input {
+    position: absolute;
+    opacity: 0;
+}
+
+
+.checkmarkcbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+.containercbox:hover input ~ .checkmarkcbox {
+    background-color: #ccc;
+}
+
+
+.containercbox input:checked ~ .checkmarkcbox {
+    background-color: #00D7DA;
+}
+
+
+.checkmarkcbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.containercbox input:checked ~ .checkmarkcbox:after {
+    display: block;
+}
+
+
+.containercbox .checkmarkcbox:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

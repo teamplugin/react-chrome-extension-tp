@@ -1,0 +1,138 @@
+
+.content {
+	display: block;
+	width: 340px;
+    margin: 0 auto;
+}
+
+
+.line{
+    color: #e1e1e1;
+}
+
+.gotaquestion11 {
+	text-align: left; 
+	font-size:13px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: 0px 0px -5px 0px;
+}
+.gotaquestion111 {
+	text-align: left; 
+	font-size:13px; 
+	font-family: raleway; 
+	font-weight: 500;
+	margin: 21px 0px -5px 0px;
+}
+
+.gotaquestion112 {
+	text-align: left; 
+	font-size:8px; 
+	font-family: raleway; 
+	font-weight: 500;
+    margin: 21px 0px -5px 0px;
+    color:red;
+}
+
+.container {
+    width: 340px;
+    
+}
+
+.container input[type=text] {
+    width: 340px;
+    height: 3rem; 
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #00D7DA;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    font-weight: inherit;
+    margin: 0px 0px 0px 0px;
+}
+
+.container input[type=text]:focus:not([readonly]) {
+    border-bottom: 4px solid #00D7DA;
+}
+        
+        
+        
+.containercbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 21px;
+    margin-bottom: 12px;
+    font-family: raleway;
+    font-weight:500;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.containercbox input {
+    position: absolute;
+    opacity: 0;
+}
+
+
+.checkmarkcbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+.containercbox:hover input ~ .checkmarkcbox {
+    background-color: #ccc;
+}
+
+
+.containercbox input:checked ~ .checkmarkcbox {
+    background-color: #00D7DA;
+}
+
+
+.checkmarkcbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.containercbox input:checked ~ .checkmarkcbox:after {
+    display: block;
+}
+
+
+.containercbox .checkmarkcbox:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.goback1 {
+	font-size:15px;
+	color: #00D7DA;
+	font-family: raleway;
+    padding: 10px 0px 0px 0px;
+    outline: 0;
+    text-decoration: none;
+}
